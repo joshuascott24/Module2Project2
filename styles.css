@@ -1,14 +1,10 @@
-.navbar {
-    background-color: transparent !important;
-}
-
 header {
     position: relative;
     width: 100%;
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('https://th.bing.com/th/id/OIG3.LN4G1ndWYe.psSdd7C7S?pid=ImgGn');
+    background-image: url('https://static1.thetravelimages.com/wordpress/wp-content/uploads/2023/03/tea-plantation-at-doi-ang-khang-chiang-mai-thailand-1.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -37,6 +33,128 @@ header .header-content .header-content-inner p {
     font-size: 16px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
+}
+
+.green-section {
+    background-color: #00ff00; /* Bright grassy green */
+    padding: 50px 20px;
+}
+
+.apple-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    filter: invert(1);
+}
+
+.green-section h1 {
+    color: #ffffff; /* White color */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.green-section p {
+    color: #ffffff; /* White color */
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.intro {
+    color: #fff;
+    background-color: #9acd32;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.content .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .col-sm-6 {
+    flex: 1;
+    padding: 20px;
+}
+
+.content .col-sm-6 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.content .col-sm-6 h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content .col-sm-6 p {
+    margin-bottom: 20px;
+}
+
+.col-lg-offset-2 {
+    margin-left: 16.66666667%;
+}
+
+.content-2 {
+    color: #fff;
+    background-color: #222;
+}
+
+.content-2 .btn {
+    background-color: #9acd32;
+}
+
+.content {
+    flex: auto;
+    padding: 100px 0;
+}
+
+.content .col-sm-6 img {
+    flex: auto;
+    margin-bottom: 20px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.item-1, .item-2, .item-3 {
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.item-1 {
+    background: url(../images/pencil_sharpener.jpg);
+}
+
+.item-2 {
+    background: url(../images/pencil_sharpener.jpg);
+}
+
+.item-3 {
+    background: url(../images/pencil_sharpener.jpg);
 }
 
 @media(min-width:768px) {
