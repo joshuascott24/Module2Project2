@@ -140,22 +140,52 @@ h3 {
     unicode-bidi: isolate;
 }
 
-.item-1, .item-2, .item-3 {
+.promo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.promo-item {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    flex: 1;
+    margin: 10px;
+    color: white;
+    text-shadow: 0px 0px 40px black;
+    text-decoration: none;
     background-size: cover;
     background-position: 50% 50%;
 }
 
+.promo-item:hover {
+    background-size: 110%; 
+    border: 10px solid rgba(255, 255, 255, 0.3);
+    line-height: 160px;
+}
+
+.promo-item h3 {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .item-1 {
-    background: url(../images/pencil_sharpener.jpg);
+    background: url('http://free-templates.me/website-templates/download/business-2/images/writing.jpg');
 }
 
 .item-2 {
-    background: url(../images/pencil_sharpener.jpg);
+    background: url('http://free-templates.me/website-templates/download/business-2/images/concert.jpg');
 }
 
 .item-3 {
-    background: url(../images/pencil_sharpener.jpg);
+    background: url('http://free-templates.me/website-templates/download/business-2/images/pencil_sharpener.jpg');
 }
+
 
 @media(min-width:768px) {
     header {
