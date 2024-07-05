@@ -229,6 +229,18 @@ h3 {
     color: rgba(255,255,255,.7);
 }
 
+/* Add this to your styles.css file */
+
+.bg-image h3 {
+    transition: transform 0.3s, color 0.3s;
+}
+
+.bg-image:hover h3 {
+    transform: scale(1.2);
+    color: #007bff; /* Change to your desired color */
+}
+
+
 @media(min-width:768px) {
     header {
         min-height: 100%;
